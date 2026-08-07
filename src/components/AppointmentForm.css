@@ -1,0 +1,80 @@
+.appt-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+  padding: 20px;
+}
+
+.appt-modal {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  width: 100%;
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+}
+
+.appt-modal h3 {
+  font-size: 18px;
+  font-weight: 800;
+  color: #1a1a2e;
+  margin-bottom: 16px;
+}
+
+.appt-modal label {
+  font-weight: 700;
+  font-size: 13px;
+  margin-bottom: 6px;
+  color: #1a1a2e;
+}
+
+.appt-modal input {
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-bottom: 6px;
+  font-family: inherit;
+}
+
+.appt-modal .error-text {
+  color: #dc2626;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.appt-modal-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.appt-modal-actions .btn-cancel,
+.appt-modal-actions .btn-confirm {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.appt-modal-actions .btn-cancel {
+  background: #f3f4f6;
+  color: #1a1a2e;
+}
+
+.appt-modal-actions .btn-confirm {
+  background: #2563eb;
+  color: #ffffff;
+}
+
+.appt-modal-actions .btn-confirm:hover {
+  background: #1d4ed8;
+}

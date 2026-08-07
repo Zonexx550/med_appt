@@ -1,0 +1,19 @@
+.notification-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fef3c7;
+  color: #92400e;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.notification-close {
+  background: none;
+  border: none;
+  color: #92400e;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 14px;
+}

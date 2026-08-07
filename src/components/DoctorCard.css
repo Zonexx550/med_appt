@@ -1,0 +1,113 @@
+.doctor-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 220px;
+}
+
+.doctor-avatar {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.doctor-card h3 {
+  font-size: 16px;
+  font-weight: 800;
+  color: #1a1a2e;
+  margin: 4px 0;
+}
+
+.doctor-specialty {
+  color: #6b7280;
+  font-size: 14px;
+  margin: 2px 0;
+}
+
+.doctor-experience {
+  color: #6b7280;
+  font-size: 13px;
+  margin: 2px 0 8px;
+}
+
+.doctor-rating {
+  font-size: 13px;
+  color: #1a1a2e;
+  margin-bottom: 16px;
+}
+
+.btn-book {
+  width: 100%;
+  background: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  transition: background 0.2s ease;
+}
+
+.btn-book span {
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.btn-book:hover {
+  background: #1d4ed8;
+}
+
+.btn-instant {
+  width: 100%;
+  background: transparent;
+  color: #2563eb;
+  border: 1.5px solid #2563eb;
+  border-radius: 6px;
+  padding: 8px;
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: all 0.2s ease;
+}
+
+.btn-instant:hover {
+  background: #2563eb;
+  color: #ffffff;
+}
+
+.doctor-card-booked {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.booked-info {
+  color: #166534;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.btn-cancel-appt {
+  width: 100%;
+  background: #dc2626;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.btn-cancel-appt:hover {
+  background: #b91c1c;
+}

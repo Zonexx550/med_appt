@@ -1,0 +1,142 @@
+.auth-page {
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+  background: #f5f6fa;
+  min-height: calc(100vh - 64px);
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 400px;
+  background: #f5f6fa;
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-card h1 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 8px;
+  color: #1a1a2e;
+}
+
+.auth-subtext {
+  text-align: center;
+  color: #4a4a4a;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+
+.auth-subtext a {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.auth-subtext a:hover {
+  text-decoration: underline;
+}
+
+.auth-card label {
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #1a1a2e;
+}
+
+.auth-card input,
+.auth-card select {
+  padding: 12px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-bottom: 6px;
+  background: #ffffff;
+  color: #1a1a2e;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.auth-card input:focus,
+.auth-card select:focus {
+  border-color: #4361ee;
+}
+
+.auth-card select {
+  appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%236b7280'><path d='M7 10l5 5 5-5z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 18px;
+}
+
+.password-field {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-field input {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.error-text {
+  color: #dc2626;
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.btn-submit,
+.btn-reset {
+  border: none;
+  border-radius: 6px;
+  padding: 14px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 16px;
+  transition: opacity 0.2s ease;
+}
+
+.btn-submit {
+  background: #2563eb;
+}
+
+.btn-submit:hover {
+  opacity: 0.9;
+}
+
+.btn-reset {
+  background: #dc2626;
+  margin-top: 12px;
+}
+
+.btn-reset:hover {
+  opacity: 0.9;
+}
+
+.forgot-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #2563eb;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.forgot-link:hover {
+  text-decoration: underline;
+}

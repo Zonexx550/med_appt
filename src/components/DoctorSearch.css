@@ -1,0 +1,49 @@
+.search-card {
+  max-width: 380px;
+  margin: 40px auto;
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  padding: 24px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.search-card h2 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #1a1a2e;
+  margin-bottom: 16px;
+}
+
+.search-illustration {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+.search-bar {
+  display: flex;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.search-bar input {
+  flex: 1;
+  border: none;
+  padding: 12px 14px;
+  font-size: 14px;
+  outline: none;
+}
+
+.search-bar button {
+  border: none;
+  background: #f3f4f6;
+  padding: 0 16px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-bar button:hover {
+  background: #e5e7eb;
+}

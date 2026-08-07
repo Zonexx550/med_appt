@@ -8,7 +8,7 @@ const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000
  * Body: { role, name, phone, email, password }
  */
 export async function registerUser(userData) {
-  const response = await fetch(`${API_BASE_URL}/register`, {
+  const response = await fetch(`${API_BASE_URL}/auth/register`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(userData),
@@ -24,12 +24,12 @@ export async function registerUser(userData) {
 
 /**
  * Authenticates a user.
- * Expected backend endpoint: POST /api/login
+ * Expected backend endpoint: POST /api/auth/login
  * Body: { email, password }
  * Response: { token, user }
  */
 export async function loginUser(credentials) {
-  const response = await fetch(`${API_BASE_URL}/login`, {
+  const response = await fetch(`${API_BASE_URL}/auth/login`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(credentials),
